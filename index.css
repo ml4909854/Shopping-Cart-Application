@@ -1,0 +1,39 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#container{
+    display: flex;
+    text-decoration: none;
+    width: 100%;
+    background-color: lightseagreen;
+    padding: 10px;
+    justify-content: start;
+    gap: 50px;
+}
+
+#container>li>a{
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+}
+
+li{
+    list-style: none;
+}
+
+#productlist{
+    display: grid;
+    grid-template-columns: repeat(4 , 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+#productlist>div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid black;
+}
